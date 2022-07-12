@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="aplikasi.kelompok.konselor">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="ShareCare"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Konselor">
+        <activity
+            android:name=".sign.splash_screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".card_item_layoutkonselor"
+            android:exported="true" />
+        <activity
+            android:name=".DetailKonselorActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".sign.info"
+            android:exported="true" />
+        <activity
+            android:name=".menu.Chatting"
+            android:exported="true" />
+        <activity
+            android:name=".sign.InfoAkun"
+            android:exported="true" />
+        <activity
+            android:name=".sign.SignIn"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

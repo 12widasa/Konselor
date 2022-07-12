@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".sign.SignIn"
+        android:background="@color/skyblue">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/label_atas"
+            android:padding="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:fontFamily="@font/comickbook_caps"
+                android:text="OTP Verification"/>
+
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/surat"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/gambar_surat"
+            android:layout_below="@id/label_atas"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gambar_surat"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:fontFamily="@font/comickbook_simple"
+                android:text="Kode verifikasi akan dikirimkan melalui pesan SMS, pastikan mengisikan nomor ponsel yang sebenarnya!" />
+
+            <EditText
+                android:id="@+id/ed_ponsel"
+                android:layout_width="250dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:gravity="center_horizontal|center_vertical"
+                android:hint="Masukan Nomor Ponsel"
+                android:fontFamily="@font/comickbook_simple"
+                android:textColorHint="@color/flowerblue"
+                android:inputType="phone"
+                android:maxLength="14"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:textSize="15dp"
+                android:textColor="@color/flowerblue"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Mungkin memerlukan biaya untuk SMS"
+                android:fontFamily="@font/comickbook_simple"
+                android:textAlignment="center"
+                android:backgroundTint="@color/white"/>
+
+            <EditText
+                android:id="@+id/ed_verifikasi"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="50dp"
+                android:background="@color/white"
+                android:gravity="center_horizontal|center_vertical"
+                android:hint="Masukan Kode"
+                android:fontFamily="@font/comickbook_simple"
+                android:textColor="@color/flowerblue"
+                android:textColorHint="@color/flowerblue"
+                android:inputType="number"
+                android:lineSpacingExtra="20sp"
+                android:maxLength="6"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_masuk"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:background="@color/deepblue"
+            android:text="Masuk"
+            android:fontFamily="@font/comickbook_caps"
+            app:cornerRadius="50px" />
+
+    </RelativeLayout>
+</layout>

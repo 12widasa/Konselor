@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "983996327591",
+    "project_id": "konselor-a7e64",
+    "storage_bucket": "konselor-a7e64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983996327591:android:009c4394346b7b8e691d82",
+        "android_client_info": {
+          "package_name": "aplikasi.kelompok.konselor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983996327591-iiiai9umubb6t3kbus32cvv4arjkb39n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjC-Fzs9HVvimATWsUzrmiy0V8OoiDPPc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983996327591-iiiai9umubb6t3kbus32cvv4arjkb39n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

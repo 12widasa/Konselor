@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity"
+    android:background="@color/skyblue">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Konselorku !"
+        android:textAlignment="center"
+        android:textColor="@color/flowerblue"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/comickbook_caps"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_konselor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:background="@color/skyblue"
+        android:paddingHorizontal="10dp"
+        tools:listitem="@layout/activity_card_item_layoutkonselor" />
+
+</RelativeLayout>
