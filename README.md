@@ -1,3 +1,4 @@
 # Konselor
 
-![tampilan_awal](https://user-images.githubusercontent.com/75721670/178423680-3827d20d-037e-4756-a282-4f5f2d7401ec.jpg)
+![tampilan_awal](https://user-images.githubusercontent.com/75721670/178424928-775c27f1-ffc2-497a-ab14-6c103622a780.jpg)
+
