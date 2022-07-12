@@ -1,4 +1,8 @@
-# Konselor
+# Share Care
 
-![tampilan_awal](https://user-images.githubusercontent.com/75721670/178426426-7fd4d7b4-8e3e-4b60-a805-164fee102d44.jpg)
-![pengertian_aplikasi](https://user-images.githubusercontent.com/75721670/178427127-d52aea18-060c-4c82-bd98-5788084374e2.jpg)
+aplikasi konselor dengan nama Share Care ini adalah aplikasi yang peduli tentang kesehatan mental pengguna,
+digunakan untuk mencurahkan hari para pengguna ke konselor terpercaya 
+
+![tampilan_awal](https://user-images.githubusercontent.com/75721670/178427964-a18e4a9a-2470-4016-890f-62a45705f6c3.jpg)
+![pengertian_aplikasi](https://user-images.githubusercontent.com/75721670/178428029-ccc0f499-11f0-42c5-b82c-c1fd898f2052.jpg)
+
